@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"  rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+
+                         <!-- Product Information -->
+
+            <div class="container">
+                <div>
+                    <img class="product" src="images/mac.png" alt="">
+                </div>
+                <div>
+                    <div class="product-info">
+                        <h1>Coustomize your Blue 2-inch iMac with Apple M1 chip</h1>
+                        <p>Apple M1 chip with 8 core CPU with  perfomance cores and efficiency cores, 7 core Gpu, and 16-core Neural Engine 8GB unified memory 256GB SSD stroage Two Thunderbolt / USB 4 ports Magic Mouse Magic Keyboard-US English.</p>
+                    </div>
+
+                     <!-- Product Hardware Part -->
+                    
+                    <h4 class="product-component">Memory</h4>
+                    <div>
+                        <button id="memory-8gb">8GB unified memory</button>
+                        <button id="memory-16gb">16GB unified memory</button>
+                    </div>
+    
+                    <h4 class="product-component">Stroage</h4>
+                    <div>
+                        <button id="stroage-256gb">256GB SSD stroage</button>
+                        <button id="stroage-512gb">512GB SSD stroage</button>
+                        <button id="stroage-1tb">1TB SSD stroage</button>
+                    </div>
+
+                      <!-- Product Delivary -->
+
+                    <h4 class="product-component">Choose your delivery option</h4>
+                    <div>
+                        <button id="delivery-free">Friday, Aug 25 FREE Prime Delivery</button>
+                        <button id="delivery-20$">Friday, Aug 21 Delivery charge $20</button>
+                    </div>
+
+                       <!-- Product Price Calculation -->
+    
+                    <div class="product-price">
+                        <div class="pc-cost">
+                            <div>
+                                <h4 class="product-line">Best Price</h4>
+                                <h4 class="product-line">Extra Memory cost<h4>
+                                <h4 class="product-line">Extra Stroage cost<h4>
+                                <h4 class="product-line">Delivery Charge<h4>    
+                            </div>
+                            <div>    
+                                <h4 class="product-line">$<span id="best-cost">1299</span></h4>
+                                <h4 class="product-line">$<span id="memory-cost">0</span></h4>
+                                <h4 class="product-line">$<span id="stroage-cost">0</span></h4>
+                                <h4 class="product-line">$ <span id="delivery-cost">0</span></h4>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="pc-cost">
+                            <h4 class="product-line2">Total Price</h4>
+                            <h4 class="product-line2">$<span id="total-cost">1299</span></h4>
+                        </div>    
+                    </div>
+                    <Div>
+                        <h4 class="product-component">Add Promo Code</h4>
+                        <div>
+                            <input id="discount-code" type="text">
+                            <button class="apply-btn" id="apply-discount">Apply</button>
+                        </div>
+                    </Div>
+                    
+                </div>
+            </div>            
+            <hr>
+                        <!-- Total Price -->
+            <h1 class="total-cost">Total: $<span id="total">1299</span></h1>
+        </section>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>
